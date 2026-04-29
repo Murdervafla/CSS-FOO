@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Food</title>
+  <link rel="stylesheet" href="1.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+   
+    .header__logo img {
+      height: 24px; 
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+
+    .watch-link {
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="page">
+
+  <header class="header">
+    <div class="header__logo">
+      <img src="chef.png" alt="Chef"> Foo
+    </div>
+
+    <nav class="header__nav">
+      <a class="header__link" href="#">Home</a>
+      <a class="header__link" href="#">Menu</a>
+      <a class="header__link" href="#">Contact</a>
+      <a class="header__link" href="#">Shop</a>
+    </nav>
+
+    <div class="header__right">
+      <div class="header__search">
+        🔍 <span>Search</span>
+      </div>
+      <div class="header__cart">
+        🛒
+        <span class="header__badge">67</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+
+    <div class="hero__left">
+      <h1 class="hero__title">
+        <span class="hero__fast">Fast</span>
+        <div>Food</div>
+        <div>Delivery</div>
+      </h1>
+
+      <p class="hero__desc">
+        Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium
+      </p>
+
+      <div class="hero__actions">
+  <a href="https://eda.yandex.ru/Zubovo?shippingType=delivery" class="btn-link">
+    <button class="btn btn--dark">Order Now</button>
+  </a>
+
+        <a href="https://www.youtube.com/watch?v=gnM6jglakus" class="watch-link" target="_blank">
+          <div class="watch">
+            <div class="watch__circle">▶</div>
+            <span>Watch Video</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="hero__rating">
+        <div class="stars">★★★★★</div>
+        <div class="rating__text">
+          <strong>5 star rating</strong><br>
+          <span>based on 1788 reviews</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__right">
+      <img src="food.png" alt="food">
+    </div>
+
+  </section>
+
+</div>
+
+</body>
+</html>
